@@ -42,7 +42,7 @@ Implementação de processos de garantia de qualidade em ambiente de homologaç�
 
 A execução integral da suíte planejada registrou os seguintes indicadores:
 
-![Resultados de Test Execution](../docs/screenshots/zephyr-report-summary.png)
+![Resultados de Test Execution](/docs/screenshots/zephyr-report-summary.png)
 
 * **Casos de Teste Executados:** 59
 * **Sucesso (Pass):** 52

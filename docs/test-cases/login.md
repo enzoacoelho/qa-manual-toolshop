@@ -1,6 +1,6 @@
 # Casos de Teste - Módulo de Login
 
-**Aplicação:** Practice Software Testing  
+**Aplicação:** Practice Software Testing  - Tool Shop
 **Módulo:** Autenticação e Sessão (`/auth/login`)  
 
 ---

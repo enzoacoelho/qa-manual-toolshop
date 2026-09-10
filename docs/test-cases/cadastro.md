@@ -1,6 +1,6 @@
 # Casos de Teste - Módulo de Cadastro (Registro)
 
-**Aplicação:** Practice Software Testing  
+**Aplicação:** Practice Software Testing - Tool Shop  
 **Módulo:** Cadastro de Usuário (`/auth/register`)  
 
 ---
@@ -11,19 +11,16 @@
 * **Objetivo:** Preencher todos os campos obrigatórios com dados válidos, validar o autocompletar do endereço e confirmar a criação da conta.
 * **Pré-condições:**
   * E-mail utilizado não deve existir na base de dados.
-* **Passos:**
-  1. Acessar a tela de cadastro (`https://practicesoftwaretesting.com/auth/register`).
-  2. Preencher dados pessoais e selecionar o país:
-     * **First Name**, **Last Name**, **DOB** (`YYYY-MM-DD`), **Country**: `United States`.
-  3. Inserir **Postal Code** e **House Number** válidos.
-  4. Confirmar se os campos **Street**, **City** e **State** foram autocompletados pelo sistema.
-  5. Preencher **Phone**, **E-mail novo** e **Password** (`Abc123!@`).
-  6. Clicar no botão **Register**.
-  7. Preencher os campos de login com o e-mail e a senha recém-cadastrados.
-* **Resultado Esperado:**
-  * Endereço autocompletado ao inserir o CEP/Postal Code.
-  * Registro concluído com sucesso e redirecionamento para `/auth/register` -> `/auth/login`.
-  * Login efetuado com sucesso usando as novas credenciais e redirecionamento para a tela inicial.
+
+| Passo | Descrição da Ação | Massa de Dados / Parâmetros | Resultado Esperado |
+| :---: | :--- | :--- | :--- |
+| **1** | Acessar a tela de cadastro. | URL: `https://practicesoftwaretesting.com/auth/register` | Página de cadastro carregada corretamente. |
+| **2** | Preencher dados pessoais e selecionar o país. | **First Name**, **Last Name**, **DOB** (`YYYY-MM-DD`), **Country**: `United States` | Campos preenchidos corretamente. |
+| **3** | Inserir CEP e número da residência. | **Postal Code** e **House Number** válidos | Dados informados nos inputs. |
+| **4** | Verificar autocompletar do endereço. | *Nenhum* | Campos **Street**, **City** e **State** autocompletados pelo sistema. |
+| **5** | Preencher dados de contato e credenciais. | **Phone**, **E-mail novo**, **Password**: `Abc123!@` | Campos preenchidos. |
+| **6** | Clicar no botão **Register**. | Botão: `Register` | Registro concluído com sucesso e redirecionamento para o login (`/auth/login`). |
+| **7** | Realizar login com as novas credenciais. | E-mail e senha recém-cadastrados | Login efetuado com sucesso e redirecionamento para a tela inicial. |
 
 ---
 
@@ -33,13 +30,12 @@
 * **Objetivo:** Tentar criar uma conta utilizando um e-mail previamente cadastrado no banco de dados.
 * **Pré-condições:**
   * O e-mail informado já deve existir no banco de dados (ex: `customer@practicesoftwaretesting.com`).
-* **Passos:**
-  1. Acessar a tela de cadastro (`https://practicesoftwaretesting.com/auth/register`).
-  2. Preencher todos os campos com dados válidos, mas informando um e-mail já cadastrado no sistema.
-  3. Clicar no botão **Register**.
-* **Resultado Esperado:**
-  * O sistema bloqueia a criação da conta e não realiza o redirecionamento.
-  * Mensagem indicando que o e-mail já está em uso ou é inválido é exibida em tela.
+
+| Passo | Descrição da Ação | Massa de Dados / Parâmetros | Resultado Esperado |
+| :---: | :--- | :--- | :--- |
+| **1** | Acessar a tela de cadastro. | URL: `https://practicesoftwaretesting.com/auth/register` | Página de cadastro carregada corretamente. |
+| **2** | Preencher formulário com e-mail existente. | **E-mail:** `customer@practicesoftwaretesting.com` + demais dados válidos | Formulário preenchido. |
+| **3** | Clicar no botão **Register**. | Botão: `Register` | O sistema bloqueia a criação da conta, sem redirecionamento, e exibe mensagem indicando que o e-mail já está em uso ou é inválido. |
 
 ---
 
@@ -49,14 +45,13 @@
 * **Objetivo:** Tentar submeter o formulário sem preencher dados ou informando apenas espaços em branco nos campos obrigatórios.
 * **Pré-condições:**
   * Tela de cadastro acessível.
-* **Passos:**
-  1. Acessar a tela de cadastro (`https://practicesoftwaretesting.com/auth/register`).
-  2. Clicar diretamente no botão **Register** sem preencher nenhum campo.
-  3. Digitar apenas espaços em branco no campo **First Name** e preencher os demais campos com dados válidos.
-  4. Clicar no botão **Register**.
-* **Resultado Esperado:**
-  * No passo 2: Envio bloqueado imediatamente com exibição de alertas para todos os campos obrigatórios.
-  * No passo 4: O sistema trata os espaços em branco como valor vazio e mantém o bloqueio do envio.
+
+| Passo | Descrição da Ação | Massa de Dados / Parâmetros | Resultado Esperado |
+| :---: | :--- | :--- | :--- |
+| **1** | Acessar a tela de cadastro. | URL: `https://practicesoftwaretesting.com/auth/register` | Página de cadastro carregada corretamente. |
+| **2** | Tentar submeter sem preencher nada. | *Nenhum* | Envio bloqueado imediatamente com exibição de alertas para todos os campos obrigatórios. |
+| **3** | Inserir apenas espaços no campo **First Name**. | **First Name:** `   ` + demais campos válidos | Campo preenchido com espaços. |
+| **4** | Clicar no botão **Register**. | Botão: `Register` | O sistema trata os espaços em branco como valor vazio e mantém o bloqueio do envio. |
 
 ---
 
@@ -66,15 +61,12 @@
 * **Objetivo:** Inserir dados sintaticamente inválidos nos campos estruturados e validar o bloqueio do envio.
 * **Pré-condições:**
   * Tela de cadastro acessível.
-* **Passos:**
-  1. Acessar a tela de cadastro (`https://practicesoftwaretesting.com/auth/register`).
-  2. Preencher o campo **Email** com formato inválido (ex: `emailinvalido`).
-  3. Preencher o campo **DOB (Data de Nascimento)** no futuro ou inexistente (ex: `2099-01-01`).
-  4. Preencher o campo **Phone** com letras (ex: `abc123`) e **Postcode** inválido (ex: `XYZ-000`).
-  5. Clicar no botão **Register**.
-* **Resultado Esperado:**
-  * Exibição de alertas de validação nos campos correspondentes (e-mail incorreto, data inválida e parâmetros incorretos para telefone/postcode).
-  * O formulário recusa a submissão até que todas as sintaxes sejam corrigidas.
+
+| Passo | Descrição da Ação | Massa de Dados / Parâmetros | Resultado Esperado |
+| :---: | :--- | :--- | :--- |
+| **1** | Acessar a tela de cadastro. | URL: `https://practicesoftwaretesting.com/auth/register` | Página de cadastro carregada corretamente. |
+| **2** | Preencher campos com formatos inválidos. | **Email:** `emailinvalido`<br>**DOB:** `2099-01-01`<br>**Phone:** `abc123`<br>**Postcode:** `XYZ-000` | Campos preenchidos com dados incorretos. |
+| **3** | Clicar no botão **Register**. | Botão: `Register` | Exibição de alertas de validação nos campos correspondentes. O formulário recusa a submissão até que todas as sintaxes sejam corrigidas. |
 
 ---
 
@@ -84,14 +76,12 @@
 * **Objetivo:** Validar se o indicador de força atualiza para *Weak* e bloqueia a submissão ao informar uma combinação fraca.
 * **Pré-condições:**
   * Estar na tela de registro com dados pessoais e e-mail válidos preenchidos.
-* **Passos:**
-  1. Acessar a tela de cadastro (`https://practicesoftwaretesting.com/auth/register`).
-  2. Preencher o campo **Password** digitando uma senha fraca contendo apenas números (ex: `123456`).
-  3. Clicar no botão **Register**.
-* **Resultado Esperado:**
-  * A barra de força da senha indica o nível **Weak**.
-  * Os requisitos de letras maiúsculas/minúsculas, caractere especial e mínimo de 8 caracteres permanecem pendentes.
-  * O envio é bloqueado pelo sistema e um alerta indica quais regras da senha não foram atendidas.
+
+| Passo | Descrição da Ação | Massa de Dados / Parâmetros | Resultado Esperado |
+| :---: | :--- | :--- | :--- |
+| **1** | Acessar a tela de cadastro. | URL: `https://practicesoftwaretesting.com/auth/register` | Página de cadastro carregada corretamente. |
+| **2** | Preencher o campo de senha fraca. | **Password:** `123456` | Campo preenchido apenas com números. |
+| **3** | Clicar no botão **Register**. | Botão: `Register` | A barra de força indica **Weak**. Requisitos pendentes (maiúsculas, especiais, tamanho). Envio bloqueado com alerta indicando regras não atendidas. |
 
 ---
 
@@ -101,14 +91,12 @@
 * **Objetivo:** Validar se o indicador de força atualiza para *Moderate* e se o envio permanece bloqueado caso faltem símbolos ou números.
 * **Pré-condições:**
   * Estar na tela de registro com dados pessoais e e-mail válidos preenchidos.
-* **Passos:**
-  1. Acessar a tela de cadastro (`https://practicesoftwaretesting.com/auth/register`).
-  2. Preencher o campo **Password** com pelo menos 8 caracteres e letra maiúscula, mas sem números ou caracteres especiais (ex: `Abcdefgh`).
-  3. Clicar no botão **Register**.
-* **Resultado Esperado:**
-  * A barra de força atualiza para **Moderate**.
-  * Os requisitos *"Include at least one number"* e *"Have at least one special symbol"* permanecem marcados como pendentes.
-  * O envio é bloqueado pelo sistema com alertas informando sobre os requisitos pendentes.
+
+| Passo | Descrição da Ação | Massa de Dados / Parâmetros | Resultado Esperado |
+| :---: | :--- | :--- | :--- |
+| **1** | Acessar a tela de cadastro. | URL: `https://practicesoftwaretesting.com/auth/register` | Página de cadastro carregada corretamente. |
+| **2** | Preencher o campo de senha moderada. | **Password:** `Abcdefgh` | Senha com 8 caracteres e maiúscula, sem números/especiais. |
+| **3** | Clicar no botão **Register**. | Botão: `Register` | Barra atualiza para **Moderate**. Requisitos de números e símbolos pendentes. Envio bloqueado com alertas informativos. |
 
 ---
 
@@ -118,10 +106,9 @@
 * **Objetivo:** Validar a regra de negócio do limite mínimo de 8 caracteres na senha, garantindo o bloqueio ao digitar 7 caracteres.
 * **Pré-condições:**
   * Estar na tela de registro com dados pessoais e e-mail válidos preenchidos.
-* **Passos:**
-  1. Acessar a tela de cadastro (`https://practicesoftwaretesting.com/auth/register`).
-  2. Preencher o campo **Password** inserindo apenas 7 caracteres com símbolos e maiúsculas (ex: `U!Doi@1`).
-  3. Clicar no botão **Register**.
-* **Resultado Esperado:**
-  * O requisito *"Be at least 8 characters long"* permanece pendente, mesmo que a barra exiba *Strong* ou *Very Strong*.
-  * O envio é bloqueado e um alerta referente ao mínimo de 8 caracteres na senha é exibido.
+
+| Passo | Descrição da Ação | Massa de Dados / Parâmetros | Resultado Esperado |
+| :---: | :--- | :--- | :--- |
+| **1** | Acessar a tela de cadastro. | URL: `https://practicesoftwaretesting.com/auth/register` | Página de cadastro carregada corretamente. |
+| **2** | Preencher o campo com senha abaixo do limite. | **Password:** `U!Doi@1` | Senha com 7 caracteres. |
+| **3** | Clicar no botão **Register**. | Botão: `Register` | Requisito de mínimo de 8 caracteres permanece pendente. Envio bloqueado com alerta correspondente exibido. |

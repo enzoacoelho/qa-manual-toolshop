@@ -55,7 +55,8 @@ A execução integral da suíte planejada registrou os seguintes indicadores:
 
 ```text
 docs/
-├── bugs/           # Relatórios de defeitos estruturados em Markdown
-├── screenshots/    # Evidências visuais de execução e falhas
-├── test-cases/     # Cenários e casos de teste documentados por módulo
-└── test-cycles/    # Escopos de execução (Smoke, Alto Risco e Regressão)
+├── bug-reports/       # Relatórios de defeitos estruturados em Markdown
+├── screenshots/        # Evidências visuais de execução e falhas
+├── test-cases/          # Cenários e casos de teste documentados por módulo
+├── test-cycles/          # Escopos de execução (Smoke, Alto Risco e Regressão)
+└── test-execution/       # Registros de execução por ciclo, com status e bugs vinculados

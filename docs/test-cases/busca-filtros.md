@@ -5,8 +5,8 @@
 
 ---
 
-### TC01 — Ordenação e Filtro Combinado de Produtos
-* **ID:** QA-T85
+### QA-FIL-01 — Ordenação e Filtro Combinado de Produtos
+* **ID:** QA-FIL-01
 * **Prioridade:** Normal
 * **Objetivo:** Validar a aplicação simultânea de busca por palavra-chave, faixa de preço e alteração de ordenação (A-Z, Z-A, Menor Preço, Maior Preço).
 * **Pré-condições:**
@@ -22,8 +22,8 @@
 
 ---
 
-### TC02 — Busca por produto inexistente no catálogo
-* **ID:** QA-T86
+### QA-FIL-02 — Busca por produto inexistente no catálogo
+* **ID:** QA-FIL-02
 * **Prioridade:** Baixa
 * **Objetivo:** Validar o comportamento do sistema ao pesquisar por um produto que não existe na base de dados.
 * **Pré-condições:**
@@ -35,8 +35,8 @@
 
 ---
 
-### TC03 — Tratamento de Caracteres Especiais na Busca (Segurança)
-* **ID:** QA-T87
+### QA-FIL-03 — Tratamento de Caracteres Especiais na Busca (Segurança)
+* **ID:** QA-FIL-03
 * **Prioridade:** Normal
 * **Objetivo:** Garantir que o campo de busca sanitize entradas maliciosas (XSS e SQL Injection) sem quebrar a aplicação ou expor erros de banco de dados.
 * **Pré-condições:**
@@ -49,8 +49,8 @@
 
 ---
 
-### TC04 — Restauração do Catálogo via Limpeza de Filtros
-* **ID:** QA-T88
+### QA-FIL-04 — Restauração do Catálogo via Limpeza de Filtros
+* **ID:** QA-FIL-04
 * **Prioridade:** Baixa
 * **Objetivo:** Confirmar que acionar a opção de limpar filtros remove todas as restrições (busca, faixa de preço, ordenação e categorias) e restaura a listagem completa de produtos.
 * **Pré-condições:**
@@ -63,8 +63,8 @@
 
 ---
 
-### TC05 — Filtragem por Categorias
-* **ID:** QA-T184
+### QA-FIL-05 — Filtragem por Categorias
+* **ID:** QA-FIL-05
 * **Prioridade:** Normal
 * **Objetivo:** Confirmar que a seleção de cada uma das categorias disponíveis no menu filtra a listagem de produtos no catálogo, exibindo apenas os itens correspondentes.
 * **Pré-condições:**

@@ -1,6 +1,6 @@
 # Relatório de Defeito (Bug Report)
 
-**ID do Caso de Teste Relacionado:** QA-T5 (TC05)  
+**ID do Caso de Teste Relacionado:** QA-CAD-05 
 **Título do Bug:** [Cadastro] Falha na validação de requisitos de UI e mensagens de erro para senha numérica  
 **Módulo:** Autenticação / Cadastro  
 **Severidade:** Alta  
@@ -25,5 +25,5 @@ O indicador de força deve exibir *Weak* e a submissão deve ser bloqueada exibi
 O indicador de força não responde adequadamente e o sistema exibe mensagens de erro divergentes e incorretas sobre limite mínimo e caracteres inválidos.
 
 ## Evidências
-![Evidência 1 do Bug QA-T5](../screenshots/BUG-QA-T5-1.png)  
-![Evidência 2 do Bug QA-T5](../screenshots/BUG-QA-T5-2.png)
+![Evidência 1 do Bug QA-T5](../screenshots/BUG-CAD-05-1.png)  
+![Evidência 2 do Bug QA-T5](../screenshots/BUG-CAD-05-2.png)

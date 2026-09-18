@@ -5,8 +5,8 @@
 
 ---
 
-### TC01 — Adição de produtos ao carrinho
-* **ID:** QA-T183
+### QA-CAR-01 — Adição de produtos ao carrinho
+* **ID:** QA-CAR-01
 * **Prioridade:** Alta
 * **Objetivo:** Adicionar um produto ao carrinho a partir da página de detalhes e verificar a atualização do contador no ícone do cabeçalho.
 * **Pré-condições:**
@@ -22,8 +22,8 @@
 
 ---
 
-### TC02 — Adição de produto com quantidade inicial customizada
-* **ID:** QA-T59
+### QA-CAR-02 — Adição de produto com quantidade inicial customizada
+* **ID:** QA-CAR-02
 * **Prioridade:** Média
 * **Objetivo:** Alterar o seletor de quantidade na página do produto antes de adicioná-lo ao carrinho.
 * **Pré-condições:**
@@ -40,8 +40,8 @@
 
 ---
 
-### TC03 — Alteração e recálculo de quantidade de item no carrinho
-* **ID:** QA-T60
+### QA-CAR-03 — Alteração e recálculo de quantidade de item no carrinho
+* **ID:** QA-CAR-03
 * **Prioridade:** Média
 * **Objetivo:** Alterar a quantidade de um item diretamente na página do carrinho e validar se os subtotais e o total geral são recalculados instantaneamente.
 * **Pré-condições:**
@@ -56,8 +56,8 @@
 
 ---
 
-### TC04 — Remoção de item do carrinho
-* **ID:** QA-T11
+### QA-CAR-04 — Remoção de item do carrinho
+* **ID:** QA-CAR-04
 * **Prioridade:** Alta
 * **Objetivo:** Acionar a exclusão de um item diretamente na tela do carrinho e confirmar a transição para o estado de carrinho vazio.
 * **Pré-condições:**
@@ -72,8 +72,8 @@
 
 ---
 
-### TC05 — Análise do Valor Limite da quantidade de produto (Página do Produto)
-* **ID:** QA-T12
+### QA-CAR-05 — Análise do Valor Limite da quantidade de produto (Página do Produto)
+* **ID:** QA-CAR-05
 * **Prioridade:** Média
 * **Objetivo:** Testar os limites de quantidade (0, 99 e 100) na página de detalhes do produto.
 * **Pré-condições:**
@@ -88,8 +88,8 @@
 
 ---
 
-### TC06 — Análise do Valor Limite da quantidade de produto já dentro do carrinho
-* **ID:** QA-T185
+### QA-CAR-06 — Análise do Valor Limite da quantidade de produto já dentro do carrinho
+* **ID:** QA-CAR-06
 * **Prioridade:** Média
 * **Objetivo:** Validar o comportamento do sistema ao tentar alterar a quantidade para valores inválidos (vazio, 0, 100) ou válidos (99) dentro do carrinho.
 * **Pré-condições:**
@@ -105,8 +105,8 @@
 
 ---
 
-### TC07 — Persistência dos itens do carrinho pós-autenticação (Logout/Login)
-* **ID:** QA-T22
+### QA-CAR-07 — Persistência dos itens do carrinho pós-autenticação (Logout/Login)
+* **ID:** QA-CAR-07
 * **Prioridade:** Média
 * **Objetivo:** Garantir que os itens adicionados ao carrinho continuem salvos após o encerramento e novo acesso à sessão.
 * **Pré-condições:**
@@ -122,8 +122,8 @@
 
 ---
 
-### TC08 — Validação de agrupamento/soma de itens no carrinho
-* **ID:** QA-T10
+### QA-CAR-08 — Validação de agrupamento/soma de itens no carrinho
+* **ID:** QA-CAR-08
 * **Prioridade:** Média
 * **Objetivo:** Confirmar que itens idênticos agrupam na mesma linha incrementando a quantidade e que itens distintos criam novas linhas com recálculo do total.
 * **Pré-condições:**

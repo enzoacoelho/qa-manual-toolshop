@@ -1,6 +1,6 @@
 # Relatório de Defeito (Bug Report)
 
-**ID do Caso de Teste Relacionado:** QA-T186 (TC06)  
+**ID do Caso de Teste Relacionado:** QA-CAD-06 
 **Título do Bug:** [Cadastro] Erro de caractere inválido e ausência de indicador de força para senha apenas com letras  
 **Módulo:** Autenticação / Cadastro  
 **Severidade:** Alta  
@@ -25,4 +25,4 @@ O medidor de força deve atualizar o status (ex: Moderate/Weak). Ao clicar em **
 O medidor de força permanece completamente cinza e o sistema exibe o alerta *"Password can not include invalid characters"*.
 
 ## Evidência
-![Evidência do Bug QA-T186](../screenshots/BUG-QA-T186.png)
+![Evidência do Bug QA-T186](../screenshots/BUG-CAD-06.png)

@@ -5,8 +5,8 @@
 
 ---
 
-### TC01 — Cadastro válido com sucesso
-* **ID:** QA-T1
+### QA-CAD-01 — Cadastro válido com sucesso
+* **ID:** QA-CAD-01
 * **Prioridade:** Alta
 * **Objetivo:** Preencher todos os campos obrigatórios com dados válidos, validar o autocompletar do endereço e confirmar a criação da conta.
 * **Pré-condições:**
@@ -24,8 +24,8 @@
 
 ---
 
-### TC02 — Cadastro com e-mail já existente
-* **ID:** QA-T2
+### QA-CAD-02 — Cadastro com e-mail já existente
+* **ID:** QA-CAD-02
 * **Prioridade:** Média
 * **Objetivo:** Tentar criar uma conta utilizando um e-mail previamente cadastrado no banco de dados.
 * **Pré-condições:**
@@ -39,8 +39,8 @@
 
 ---
 
-### TC03 — Validação de campos obrigatórios vazios ou contendo apenas espaços
-* **ID:** QA-T3
+### QA-CAD-03 — Validação de campos obrigatórios vazios ou contendo apenas espaços
+* **ID:** QA-CAD-03
 * **Prioridade:** Média
 * **Objetivo:** Tentar submeter o formulário sem preencher dados ou informando apenas espaços em branco nos campos obrigatórios.
 * **Pré-condições:**
@@ -55,8 +55,8 @@
 
 ---
 
-### TC04 — Validação de formato de campos (E-mail, Data, Telefone e CEP)
-* **ID:** QA-T4
+### QA-CAD-04 — Validação de formato de campos (E-mail, Data, Telefone e CEP)
+* **ID:** QA-CAD-04
 * **Prioridade:** Média
 * **Objetivo:** Inserir dados sintaticamente inválidos nos campos estruturados e validar o bloqueio do envio.
 * **Pré-condições:**
@@ -70,8 +70,8 @@
 
 ---
 
-### TC05 — Validação de bloqueio de cadastro ao utilizar senha com nível de força Weak
-* **ID:** QA-T5
+### QA-CAD-05 — Validação de bloqueio de cadastro ao utilizar senha com nível de força Weak
+* **ID:** QA-CAD-05
 * **Prioridade:** Média
 * **Objetivo:** Validar se o indicador de força atualiza para *Weak* e bloqueia a submissão ao informar uma combinação fraca.
 * **Pré-condições:**
@@ -85,8 +85,8 @@
 
 ---
 
-### TC06 — Validação de bloqueio de cadastro ao utilizar senha com nível de força Moderate
-* **ID:** QA-T186
+### QA-CAD-06 — Validação de bloqueio de cadastro ao utilizar senha com nível de força Moderate
+* **ID:** QA-CAD-06
 * **Prioridade:** Média
 * **Objetivo:** Validar se o indicador de força atualiza para *Moderate* e se o envio permanece bloqueado caso faltem símbolos ou números.
 * **Pré-condições:**
@@ -100,8 +100,8 @@
 
 ---
 
-### TC07 — Validação de limite mínimo de caracteres no campo Password
-* **ID:** QA-T187
+### QA-CAD-07 — Validação de limite mínimo de caracteres no campo Password
+* **ID:** QA-CAD-07
 * **Prioridade:** Média
 * **Objetivo:** Validar a regra de negócio do limite mínimo de 8 caracteres na senha, garantindo o bloqueio ao digitar 7 caracteres.
 * **Pré-condições:**

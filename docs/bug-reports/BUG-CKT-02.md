@@ -1,6 +1,6 @@
 # Relatório de Defeito (Bug Report)
 
-**ID do Caso de Teste Relacionado:** QA-T63 (TC02)  
+**ID do Caso de Teste Relacionado:** QA-CKT-02 
 **Título do Bug:** [Checkout] Ausência de validação visual de campos obrigatórios e exibição de "Unknown error"  
 **Módulo:** Checkout / Pagamento  
 **Severidade:** Alta  
@@ -24,4 +24,4 @@ O envio deve ser bloqueado no front-end, destacando visualmente em vermelho cada
 O envio é bloqueado, porém o sistema exibe apenas um alerta vermelho genérico e sem tratativa com a mensagem *"Unknown error"*, sem sinalizar quais campos estão pendentes de preenchimento, confundindo o usuário. O botão “Confirm” continua habilitado.
 
 ## Evidência
-![Evidência do Bug QA-T63](../screenshots/BUG-QA-T63.png)
+![Evidência do Bug QA-T63](../screenshots/BUG-CKT-02.png)

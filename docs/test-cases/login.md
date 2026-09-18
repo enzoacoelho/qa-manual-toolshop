@@ -5,8 +5,8 @@
 
 ---
 
-### TC01 — Login com sucesso
-* **ID:** QA-T6
+### QA-LOG-01 — Login com credenciais válidas com sucesso
+* **ID:** QA-LOG-01
 * **Prioridade:** Alta
 * **Objetivo:** Autenticar um usuário cadastrado com credenciais válidas e redirecionar para a área logada.
 * **Pré-condições:**
@@ -20,8 +20,8 @@
 
 ---
 
-### TC02 — Login com campos vazios
-* **ID:** QA-T9
+### QA-LOG-02 — Login com campos vazios
+* **ID:** QA-LOG-02
 * **Prioridade:** Média
 * **Objetivo:** Submeter o formulário de login com e-mail e senha em branco.
 * **Pré-condições:**
@@ -34,8 +34,8 @@
 
 ---
 
-### TC03 — Login com campos preenchidos apenas com espaços
-* **ID:** QA-T43
+### QA-LOG-03 — Login com campos preenchidos apenas com espaços colados
+* **ID:** QA-LOG-03
 * **Prioridade:** Média
 * **Objetivo:** Inserir apenas espaços em branco nos campos de login e tentar submeter.
 * **Pré-condições:**
@@ -49,8 +49,8 @@
 
 ---
 
-### TC04 — Login com espaços antes/depois de credenciais válidas
-* **ID:** QA-T44
+### QA-LOG-05 — Login com espaços antes/depois de credenciais válidas
+* **ID:** QA-LOG-05
 * **Prioridade:** Média
 * **Objetivo:** Inserir credenciais válidas contendo espaços no início ou fim e validar a regra de tratamento (trim).
 * **Pré-condições:**
@@ -64,8 +64,8 @@
 
 ---
 
-### TC05 — Login com senha incorreta
-* **ID:** QA-T7
+### QA-LOG-06 — Login com senha incorreta
+* **ID:** QA-LOG-06
 * **Prioridade:** Média
 * **Objetivo:** Tentar autenticação com e-mail válido e senha errada, garantindo a exibição da mensagem de erro genérica por segurança.
 * **Pré-condições:**
@@ -79,8 +79,8 @@
 
 ---
 
-### TC06 — Login com e-mail não cadastrado
-* **ID:** QA-T8
+### QA-LOG-07 — Login com e-mail não cadastrado
+* **ID:** QA-LOG-07
 * **Prioridade:** Média
 * **Objetivo:** Tentar login utilizando um e-mail que não existe na base de dados.
 * **Pré-condições:**
@@ -94,8 +94,8 @@
 
 ---
 
-### TC07 — Login com e-mail em formato inválido
-* **ID:** QA-T45
+### QA-LOG-08 — Login com e-mail em formato inválido
+* **ID:** QA-LOG-08
 * **Prioridade:** Média
 * **Objetivo:** Inserir e-mail fora da sintaxe padrão e tentar submeter a autenticação.
 * **Pré-condições:**
@@ -109,8 +109,8 @@
 
 ---
 
-### TC08 — Acessar link "Cadastre-se" a partir do login
-* **ID:** QA-T46
+### QA-LOG-09 — Acessar link "Cadastre-se" a partir do login
+* **ID:** QA-LOG-09
 * **Prioridade:** Baixa
 * **Objetivo:** Validar o direcionamento do link de registro de conta a partir da tela de login.
 * **Pré-condições:**
@@ -123,8 +123,8 @@
 
 ---
 
-### TC09 — Acessar link "Esqueceu a senha" a partir do login
-* **ID:** QA-T47
+### QA-LOG-10 — Acessar link "Esqueceu a senha" a partir do login
+* **ID:** QA-LOG-10
 * **Prioridade:** Baixa
 * **Objetivo:** Validar o direcionamento do link de recuperação de senha.
 * **Pré-condições:**
@@ -137,8 +137,8 @@
 
 ---
 
-### TC10 — Ícone de mostrar/esconder senha
-* **ID:** QA-T48
+### QA-LOG-11 — Ícone de mostrar/esconder senha
+* **ID:** QA-LOG-11
 * **Prioridade:** Baixa
 * **Objetivo:** Alternar a visibilidade da senha entre caracteres mascarados e texto plano.
 * **Pré-condições:**
@@ -152,8 +152,8 @@
 
 ---
 
-### TC11 — Logout
-* **ID:** QA-T181
+### QA-LOG-12 — Encerramento de sessão (Logout) com sucesso
+* **ID:** QA-LOG-12
 * **Prioridade:** Alta
 * **Objetivo:** Encerrar a sessão do usuário e garantir o bloqueio de navegação para áreas privadas.
 * **Pré-condições:**

@@ -1,6 +1,6 @@
 # Relatório de Defeito (Bug Report)
 
-**ID do Caso de Teste Relacionado:** QA-T4 (TC04)  
+**ID do Caso de Teste Relacionado:** QA-CAD-04
 **Título do Bug:** [Cadastro] Ausência de validação de data futura no campo Date of Birth  
 **Módulo:** Autenticação / Cadastro  
 **Severidade:** Média  

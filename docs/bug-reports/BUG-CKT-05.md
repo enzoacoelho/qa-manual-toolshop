@@ -1,6 +1,6 @@
 # Relatório de Defeito (Bug Report)
 
-**ID do Caso de Teste Relacionado:** QA-T65 (TC05)  
+**ID do Caso de Teste Relacionado:** QA-CKT-05 
 **Título do Bug:** [Checkout] Botão "Confirm" fica desabilitado sem exibir alertas de validação nos campos de Bank Transfer  
 **Módulo:** Checkout / Pagamento  
 **Severidade:** Média  
@@ -24,4 +24,4 @@ O sistema deve destacar em vermelho os campos obrigatórios vazios e exibir mens
 O botão *Confirm* fica desabilitado diretamente sem que qualquer mensagem de erro ou destaque visual de validação seja apresentado nos campos do formulário, deixando o usuário sem feedback do motivo do bloqueio.
 
 ## Evidência
-![Evidência do Bug QA-T65](../screenshots/BUG-QA-T65.png)
+![Evidência do Bug QA-T65](../screenshots/BUG-CKT-05.png)

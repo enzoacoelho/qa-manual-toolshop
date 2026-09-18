@@ -5,12 +5,12 @@
 
 ---
 
-| ID | Chave | Versão | Nome do Caso de Teste | Atribuído a | Prioridade | Status |
-| :---: | :---: | :---: | :--- | :---: | :---: | :---: |
-| 1 | **QA-T6** | 1.0 | TC01 — Login com sucesso | enzo coelho | Alta (High) | Executado / Sucesso |
-| 2 | **QA-T181** | 1.0 | TC11 — Logout | enzo coelho | Alta (High) | Executado / Sucesso |
-| 3 | **QA-T1** | 1.0 | TC01 — Cadastro válido com sucesso | enzo coelho | Alta (High) | Executado / Sucesso |
-| 4 | **QA-T183** | 1.0 | TC01 — Adição de produtos ao carrinho | enzo coelho | Alta (High) | Executado / Sucesso |
-| 5 | **QA-T11** | 1.0 | TC04 — Remoção de item do carrinho | enzo coelho | Alta (High) | Executado / Sucesso |
-| 6 | **QA-T24** | 1.0 | TC01 — Finalizar pedido com Cartão de Crédito com sucesso | enzo coelho | Alta (High) | Executado / Sucesso |
-| 7 | **QA-T64** | 1.0 | TC04 — Finalizar pedido via Transferência Bancária (Bank Transfer) com sucesso | enzo coelho | Alta (High) | Executado / Sucesso |
+| Chave | Versão | Componente/Tela | Nome do Caso de Teste |
+| :---: | :---: | :--- | :--- |
+| **QA-LOG-01** | 1.0 | Login | Login com credenciais válidas com sucesso |
+| **QA-LOG-12** | 1.0 | Login | Encerramento de sessão (Logout) com sucesso |
+| **QA-CAD-01** | 1.0 | Cadastro | Cadastro válido com sucesso |
+| **QA-CAR-01** | 1.0 | Carrinho | Adição de produtos ao carrinho |
+| **QA-CAR-04** | 1.0 | Carrinho | Remoção de item do carrinho |
+| **QA-CKT-01** | 1.0 | Checkout | Finalizar pedido com Cartão de Crédito com sucesso |
+| **QA-CKT-04** | 1.0 | Checkout | Finalizar pedido via Transferência Bancária (Bank Transfer) com sucesso |

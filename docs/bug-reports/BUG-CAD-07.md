@@ -1,6 +1,6 @@
 # Relatório de Defeito (Bug Report)
 
-**ID do Caso de Teste Relacionado:** QA-T187 (TC07)  
+**ID do Caso de Teste Relacionado:** QA-CAD-07 
 **Título do Bug:** [Cadastro] Inconsistências na validação de tamanho minimo da senha  
 **Módulo:** Autenticação / Cadastro  
 **Severidade:** Média  
@@ -25,4 +25,4 @@ O sistema deveria aplicar uma regra consistente de limite mínimo de caracteres 
 O backend exibe mensagem divergente ("minimal 6 characters long") e a barra de força da senha permanece inalterada (cinza).
 
 ## Evidência
-![Evidência do Bug QA-T187](../screenshots/BUG-QA-T187.png)
+![Evidência do Bug QA-T187](../screenshots/BUG-CAD-07.png)

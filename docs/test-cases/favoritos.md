@@ -5,8 +5,8 @@
 
 ---
 
-### TC01 — Adicionar produto aos favoritos com sucesso
-* **ID:** QA-T93
+### QA-FAV-01 — Adicionar produto aos favoritos com sucesso
+* **ID:** QA-FAV-01
 * **Prioridade:** Normal
 * **Objetivo:** Confirmar que ao favoritar um produto, o botão altera seu estado visual, a mensagem de confirmação é exibida e o item é salvo na lista.
 * **Pré-condições:**
@@ -19,8 +19,8 @@
 
 ---
 
-### TC02 — Remover produto dos favoritos
-* **ID:** QA-T94
+### QA-FAV-02 — Remover produto dos favoritos
+* **ID:** QA-FAV-02
 * **Prioridade:** Normal
 * **Objetivo:** Confirmar que o usuário consegue remover um item previamente favoritado através da tela de favoritos.
 * **Pré-condições:**
@@ -33,8 +33,8 @@
 
 ---
 
-### TC03 — Persistência da lista de favoritos após logout e login
-* **ID:** QA-T95
+### QA-FAV-03 — Persistência da lista de favoritos após logout e login
+* **ID:** QA-FAV-03
 * **Prioridade:** Normal
 * **Objetivo:** Garantir que um produto adicionado aos favoritos permaneça salvo na conta do usuário após ele encerrar a sessão e realizar login novamente.
 * **Pré-condições:**
@@ -49,8 +49,8 @@
 
 ---
 
-### TC04 — Adicionar múltiplos produtos aos favoritos
-* **ID:** QA-T96
+### QA-FAV-04 — Adicionar múltiplos produtos aos favoritos
+* **ID:** QA-FAV-04
 * **Prioridade:** Baixa
 * **Objetivo:** Confirmar que o sistema suporta múltiplos produtos adicionados à lista de favoritos, alterando o estado de cada botão, exibindo as mensagens e sem sobresscrever itens.
 * **Pré-condições:**
@@ -64,8 +64,8 @@
 
 ---
 
-### TC05 — Ver lista de favoritos vazia
-* **ID:** QA-T97
+### QA-FAV-05 — Ver lista de favoritos vazia
+* **ID:** QA-FAV-05
 * **Prioridade:** Baixa
 * **Objetivo:** Validar o estado da tela de favoritos quando o usuário não possui nenhum item favoritado.
 * **Pré-condições:**
@@ -77,8 +77,8 @@
 
 ---
 
-### TC06 — Impedir alteração indevida de estado e duplicidade para produto já favoritado
-* **ID:** QA-T98
+### QA-FAV-06 — Impedir alteração indevida de estado e duplicidade para produto já favoritado
+* **ID:** QA-FAV-06
 * **Prioridade:** Normal
 * **Objetivo:** Validar que se um produto já está favoritado, o botão permanece no estado "favoritado" (ou desabilitado), impedindo nova adição e duplicidade na lista.
 * **Pré-condições:**
@@ -91,8 +91,8 @@
 
 ---
 
-### TC07 — Bloqueio de favoritamento para usuário não autenticado (Negativo)
-* **ID:** QA-T99
+### QA-FAV-07 — Bloqueio de favoritamento para usuário não autenticado (Negativo)
+* **ID:** QA-FAV-07
 * **Prioridade:** Baixa
 * **Objetivo:** Garantir que usuários deslogados não consigam favoritar produtos, alterar estado de botão ou receber confirmação de adição.
 * **Pré-condições:**

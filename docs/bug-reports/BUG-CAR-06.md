@@ -1,6 +1,6 @@
 # Relatório de Defeito (Bug Report)
 
-**ID do Caso de Teste Relacionado:** QA-T185 (TC06)  
+**ID do Caso de Teste Relacionado:** QA-CAR-06  
 **Título do Bug:** [Carrinho] Alertas incorretos ao rejeitar limite de quantidade no carrinho  
 **Módulo:** Carrinho / Checkout  
 **Severidade:** Média  
@@ -26,4 +26,4 @@ O sistema deve exibir apenas a mensagem de alerta/restrição (ex: *"You can ord
 O sistema reverte o valor para o limite permitido, mas dispara o toast verde *"Product quantity updated"* (gerando alertas opostos simultâneos no caso do valor 100).
 
 ## Evidência
-![Evidência do Bug QA-T185](../screenshots/BUG-QA-T185.png)
+![Evidência do Bug QA-T185](../screenshots/BUG-CAR-06.png)

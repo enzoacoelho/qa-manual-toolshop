@@ -5,8 +5,8 @@
 
 ---
 
-### TC01 — Alterar dados básicos do perfil com sucesso
-* **ID:** QA-T106
+### QA-USER-01 — Alterar dados básicos do perfil com sucesso
+* **ID:** QA-USER-01
 * **Prioridade:** Normal
 * **Objetivo:** Confirmar que o usuário autenticado consegue atualizar suas informações pessoais básicas (ex: Nome, Sobrenome, Telefone, Endereço).
 * **Pré-condições:**
@@ -19,8 +19,8 @@
 
 ---
 
-### TC02 — Alterar senha do usuário com sucesso
-* **ID:** QA-T107
+### QA-USER-02 — Alterar senha do usuário com sucesso
+* **ID:** QA-USER-02
 * **Prioridade:** Alta
 * **Objetivo:** Confirmar que o usuário consegue alterar sua senha informando a senha atual válida e uma nova senha forte que atenda aos requisitos de segurança.
 * **Pré-condições:**
@@ -33,8 +33,8 @@
 
 ---
 
-### TC03 — Tentativa de salvar dados básicos do perfil em branco
-* **ID:** QA-T108
+### QA-USER-03 — Tentativa de salvar dados básicos do perfil em branco
+* **ID:** QA-USER-03
 * **Prioridade:** Normal
 * **Objetivo:** Validar que o sistema impede a atualização do perfil caso campos obrigatórios (ex: Nome, Sobrenome) sejam apagados e deixados em branco.
 * **Pré-condições:**
@@ -47,8 +47,8 @@
 
 ---
 
-### TC04 — Tentativa de alterar a senha para uma senha fraca
-* **ID:** QA-T109
+### QA-USER-04 — Tentativa de alterar a senha para uma senha fraca
+* **ID:** QA-USER-04
 * **Prioridade:** Normal
 * **Objetivo:** Validar o bloqueio ao tentar cadastrar uma nova senha que não atenda aos critérios mínimos de segurança exigidos pela aplicação (ex: comprimento curto ou ausência de caracteres especiais/números).
 * **Pré-condições:**
@@ -61,8 +61,8 @@
 
 ---
 
-### TC05 — Tentativa de alterar a senha para a mesma senha atual
-* **ID:** QA-T110
+### QA-USER-05 — Tentativa de alterar a senha para a mesma senha atual
+* **ID:** QA-USER-05
 * **Prioridade:** Normal
 * **Objetivo:** Validar se o sistema impede que o usuário defina uma nova senha exatamente igual à senha atual já em uso.
 * **Pré-condições:**

@@ -5,8 +5,8 @@
 
 ---
 
-### TC01 — Enviar mensagem de contato com sucesso
-* **ID:** QA-T100
+### QA-CON-01 — Enviar mensagem de contato com sucesso
+* **ID:** QA-CON-01
 * **Prioridade:** Normal
 * **Objetivo:** Validar o envio com sucesso do formulário de contato com dados válidos.
 * **Pré-condições:**
@@ -19,8 +19,8 @@
 
 ---
 
-### TC02 — Bloqueio de envio com Assunto e Mensagem vazios
-* **ID:** QA-T101
+### QA-CON-02 — Bloqueio de envio com Assunto e Mensagem vazios
+* **ID:** QA-CON-02
 * **Prioridade:** Normal
 * **Objetivo:** Validar o bloqueio de envio ao manter os campos obrigatórios do formulário limpos.
 * **Pré-condições:**
@@ -33,8 +33,8 @@
 
 ---
 
-### TC03 — Rejeição de anexo em formato inválido
-* **ID:** QA-T105
+### QA-CON-03 — Rejeição de anexo em formato inválido
+* **ID:** QA-CON-03
 * **Prioridade:** Normal
 * **Objetivo:** Validar a restrição de extensões de arquivos no anexo do formulário de contato.
 * **Pré-condições:**
@@ -46,8 +46,8 @@
 
 ---
 
-### TC06 — Rejeição de arquivo .txt acima do limite de tamanho
-* **ID:** QA-T182
+### QA-CON-04 — Rejeição de arquivo .txt acima do limite de tamanho
+* **ID:** QA-CON-04
 * **Prioridade:** Normal
 * **Objetivo:** Validar o bloqueio de envio ao anexar arquivo `.txt` que ultrapasse o limite máximo permitido (regra da aplicação: limite de 0KB / arquivo com conteúdo).
 * **Pré-condições:**

@@ -5,8 +5,8 @@
 
 ---
 
-### TC01 — Finalizar pedido com Cartão de Crédito com sucesso
-* **ID:** QA-T24
+### QA-CKT-01 — Finalizar pedido com Cartão de Crédito com sucesso
+* **ID:** QA-CKT-01
 * **Prioridade:** Alta
 * **Objetivo:** Concluir uma compra no checkout utilizando o método Credit Card com dados válidos e confirmar se o pedido gerado consta na área "My Orders".
 * **Pré-condições:**
@@ -25,8 +25,8 @@
 
 ---
 
-### TC02 — Tentativa de pagamento com Cartão de Crédito com campos vazios
-* **ID:** QA-T63
+### QA-CKT-02 — Tentativa de pagamento com Cartão de Crédito com campos vazios
+* **ID:** QA-CKT-02
 * **Prioridade:** Média
 * **Objetivo:** Submeter a opção Credit Card sem preencher o formulário.
 * **Pré-condições:**
@@ -40,8 +40,8 @@
 
 ---
 
-### TC03 — Tentativa de pagamento com Cartão de Crédito com dados inválidos
-* **ID:** QA-T26
+### QA-CKT-03 — Tentativa de pagamento com Cartão de Crédito com dados inválidos
+* **ID:** QA-CKT-03
 * **Prioridade:** Média
 * **Objetivo:** Inserir dados sintaticamente incorretos no formulário do cartão de crédito.
 * **Pré-condições:**
@@ -57,8 +57,8 @@
 
 ---
 
-### TC04 — Finalizar pedido via Transferência Bancária (Bank Transfer) com sucesso
-* **ID:** QA-T64
+### QA-CKT-04 — Finalizar pedido via Transferência Bancária (Bank Transfer) com sucesso
+* **ID:** QA-CKT-04
 * **Prioridade:** Alta
 * **Objetivo:** Concluir uma compra selecionando Bank Transfer com dados bancários válidos e confirmar a exibição na área "My Orders".
 * **Pré-condições:**
@@ -74,8 +74,8 @@
 
 ---
 
-### TC05 — Tentativa de pagamento via Bank Transfer com campos vazios
-* **ID:** QA-T65
+### QA-CKT-05 — Tentativa de pagamento via Bank Transfer com campos vazios
+* **ID:** QA-CKT-05
 * **Prioridade:** Média
 * **Objetivo:** Confirmar o pagamento via Bank Transfer sem preencher os dados exigidos.
 * **Pré-condições:**
@@ -89,8 +89,8 @@
 
 ---
 
-### TC06 — Tentativa de pagamento via Bank Transfer com dados inválidos
-* **ID:** QA-T66
+### QA-CKT-06 — Tentativa de pagamento via Bank Transfer com dados inválidos
+* **ID:** QA-CKT-06
 * **Prioridade:** Média
 * **Objetivo:** Inserir informações com formato inválido nos campos do Bank Transfer.
 * **Pré-condições:**
@@ -104,8 +104,8 @@
 
 ---
 
-### TC07 — Tentativa de finalizar o checkout sem escolher forma de pagamento
-* **ID:** QA-T67
+### QA-CKT-07 — Tentativa de finalizar o checkout sem escolher forma de pagamento
+* **ID:** QA-CKT-07
 * **Prioridade:** Média
 * **Objetivo:** Clicar no botão de confirmação sem selecionar nenhum método de pagamento.
 * **Pré-condições:**
@@ -121,8 +121,8 @@
 
 ---
 
-### TC08 — Validação de campos obrigatórios no formulário de endereço
-* **ID:** QA-T68
+### QA-CKT-08 — Validação de campos obrigatórios no formulário de endereço
+* **ID:** QA-CKT-08
 * **Prioridade:** Média
 * **Objetivo:** Tentar avançar da etapa de endereço deixando todos os campos limpos.
 * **Pré-condições:**
@@ -136,8 +136,8 @@
 
 ---
 
-### TC09 — Validação de formatos inválidos no formulário de endereço (CEP e Número da Casa)
-* **ID:** QA-T69
+### QA-CKT-09 — Validação de formatos inválidos no formulário de endereço (CEP e Número da Casa)
+* **ID:** QA-CKT-09
 * **Prioridade:** Média
 * **Objetivo:** Inserir CEP em formato incorreto e letras no campo de número da casa.
 * **Pré-condições:**
@@ -152,8 +152,8 @@
 
 ---
 
-### TC10 — Checkout com carrinho de compras vazio
-* **ID:** QA-T70
+### QA-CKT-10 — Checkout com carrinho de compras vazio
+* **ID:** QA-CKT-10
 * **Prioridade:** Média
 * **Objetivo:** Acessar a página do carrinho sem nenhum item adicionado e verificar se o botão de prosseguir para o checkout está desabilitado.
 * **Pré-condições:**
@@ -166,8 +166,8 @@
 
 ---
 
-### TC11 — Acesso ao checkout para usuário não autenticado
-* **ID:** QA-T71
+### QA-CKT-11 — Acesso ao checkout para usuário não autenticado
+* **ID:** QA-CKT-11
 * **Prioridade:** Alta
 * **Objetivo:** Tentar acessar a URL do checkout sem possuir sessão ativa.
 * **Pré-condições:**

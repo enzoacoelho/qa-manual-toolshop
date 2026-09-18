@@ -25,4 +25,4 @@ O medidor de força deve atualizar o status (ex: Moderate/Weak). Ao clicar em **
 O medidor de força permanece completamente cinza e o sistema exibe o alerta *"Password can not include invalid characters"*.
 
 ## Evidência
-![Evidência do Bug QA-CAD-06](../screenshots/BUG-CAD-06.png)
+![Evidência do Bug QA-CAD-06](../../screenshots/BUG-CAD-06.png)

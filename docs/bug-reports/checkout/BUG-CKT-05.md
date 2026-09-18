@@ -24,4 +24,4 @@ O sistema deve destacar em vermelho os campos obrigatórios vazios e exibir mens
 O botão *Confirm* fica desabilitado diretamente sem que qualquer mensagem de erro ou destaque visual de validação seja apresentado nos campos do formulário, deixando o usuário sem feedback do motivo do bloqueio.
 
 ## Evidência
-![Evidência do Bug QA-CKT-05](../screenshots/BUG-CKT-05.png)
+![Evidência do Bug QA-CKT-05](../../screenshots/BUG-CKT-05.png)

@@ -24,4 +24,4 @@ O envio deve ser bloqueado no front-end, destacando visualmente em vermelho cada
 O envio é bloqueado, porém o sistema exibe apenas um alerta vermelho genérico e sem tratativa com a mensagem *"Unknown error"*, sem sinalizar quais campos estão pendentes de preenchimento, confundindo o usuário. O botão “Confirm” continua habilitado.
 
 ## Evidência
-![Evidência do Bug QA-CKT-02](../screenshots/BUG-CKT-02.png)
+![Evidência do Bug QA-CKT-02](../../screenshots/BUG-CKT-02.png)

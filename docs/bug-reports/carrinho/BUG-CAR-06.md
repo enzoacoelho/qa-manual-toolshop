@@ -26,4 +26,4 @@ O sistema deve exibir apenas a mensagem de alerta/restrição (ex: *"You can ord
 O sistema reverte o valor para o limite permitido, mas dispara o toast verde *"Product quantity updated"* (gerando alertas opostos simultâneos no caso do valor 100).
 
 ## Evidência
-![Evidência do Bug QA-CAR-06](../screenshots/BUG-CAR-06.png)
+![Evidência do Bug QA-CAR-06](../../screenshots/BUG-CAR-06.png)

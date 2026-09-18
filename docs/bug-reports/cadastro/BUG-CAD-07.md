@@ -25,4 +25,4 @@ O sistema deveria aplicar uma regra consistente de limite mínimo de caracteres 
 O backend exibe mensagem divergente ("minimal 6 characters long") e a barra de força da senha permanece inalterada (cinza).
 
 ## Evidência
-![Evidência do Bug QA-CAD-07](../screenshots/BUG-CAD-07.png)
+![Evidência do Bug QA-CAD-07](../../screenshots/BUG-CAD-07.png)

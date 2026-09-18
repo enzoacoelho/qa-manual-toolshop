@@ -25,5 +25,5 @@ O indicador de força deve exibir *Weak* e a submissão deve ser bloqueada exibi
 O indicador de força não responde adequadamente e o sistema exibe mensagens de erro divergentes e incorretas sobre limite mínimo e caracteres inválidos.
 
 ## Evidências
-![Evidência 1 do QA-CAD-05](../screenshots/BUG-CAD-05-1.png)  
-![Evidência 2 do QA-CAD-05](../screenshots/BUG-CAD-05-2.png)
+![Evidência 1 do QA-CAD-05](../../screenshots/BUG-CAD-05-1.png)  
+![Evidência 2 do QA-CAD-05](../../screenshots/BUG-CAD-05-2.png)

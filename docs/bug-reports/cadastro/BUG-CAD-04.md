@@ -24,4 +24,4 @@ O sistema deve validar a entrada e impedir o cadastro, exibindo um alerta inform
 O sistema aceita a data futura e prossegue com a submissão do cadastro sem emitir nenhum alerta de validação.
 
 ## Evidência
-![Evidência do Bug QA-CAD-04](../screenshots/BUG-CAD-04.png)
+![Evidência do Bug QA-CAD-04](../../screenshots/BUG-CAD-04.png)

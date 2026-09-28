@@ -1,4 +1,4 @@
-# Manual QA Testing Portfolio – Practice Software Testing
+# Teste Manual – Practice Software Testing (Tool Shop)
 
 Este repositório apresenta um projeto prático de QA manual criado para demonstrar habilidades em testes funcionais, gerenciamento de testes e rastreamento de defeitos utilizando Jira e Zephyr Scale.
 O projeto cobre o design de casos de teste, ciclos de execução e relatórios detalhados de bugs.

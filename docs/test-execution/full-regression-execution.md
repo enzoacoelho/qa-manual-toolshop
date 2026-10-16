@@ -37,7 +37,7 @@
 | QA-FAV-06 | Favoritos | Impedir alteração indevida de estado e duplicidade para produto já favoritado | ✅ Passou | — |
 | QA-FAV-07 | Favoritos | Bloqueio de favoritamento para usuário não autenticado (Negativo) | ✅ Passou | — |
 | QA-CON-01 | Contato | Enviar mensagem de contato com sucesso | ✅ Passou | — |
-| QA-CON-02 | Contato | Bloqueio de envio com Assunto e Mensagem vazios | ✅ Passou | — |
+| QA-CON-02 | Contato | Bloqueio de envio com campos obrigatórios vazios | ✅ Passou | — |
 | QA-CON-03 | Contato | Rejeição de anexo em formato inválido | ✅ Passou | — |
 | QA-CON-04 | Contato | Rejeição de arquivo .txt acima do limite de tamanho | ✅ Passou | — |
 | QA-CAR-01 | Carrinho | Adição de produtos ao carrinho | ✅ Passou | — |

@@ -46,7 +46,7 @@
 
 ---
 
-### QA-CON-04 — Rejeição de arquivo .txt acima do limite de tamanho
+### QA-CON-04 — Rejeição de anexo válido mas acima do limite de tamanho
 * **ID:** QA-CON-04
 * **Prioridade:** Normal
 * **Objetivo:** Validar o bloqueio de envio ao anexar arquivo `.txt` que ultrapasse o limite máximo permitido (regra da aplicação: limite de 0KB / arquivo com conteúdo).

@@ -39,7 +39,7 @@
 | QA-CON-01 | Contato | Enviar mensagem de contato com sucesso | ✅ Passou | — |
 | QA-CON-02 | Contato | Bloqueio de envio com campos obrigatórios vazios | ✅ Passou | — |
 | QA-CON-03 | Contato | Rejeição de anexo em formato inválido | ✅ Passou | — |
-| QA-CON-04 | Contato | Rejeição de arquivo .txt acima do limite de tamanho | ✅ Passou | — |
+| QA-CON-04 | Contato | Rejeição de anexo válido mas acima do limite de tamanho | ✅ Passou | — |
 | QA-CAR-01 | Carrinho | Adição de produtos ao carrinho | ✅ Passou | — |
 | QA-CAR-02 | Carrinho | Adição de produto com quantidade inicial customizada | ✅ Passou | — |
 | QA-CAR-03 | Carrinho | Alteração e recálculo de quantidade de item no carrinho | ✅ Passou | — |

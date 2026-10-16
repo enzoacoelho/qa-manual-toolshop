@@ -14,7 +14,7 @@
 
 | Passo | Descrição da Ação | Massa de Dados / Parâmetros | Resultado Esperado |
 | :---: | :--- | :--- | :--- |
-| **1** | Preencher todos os campos obrigatórios. | Nome, Sobrenome, E-mail, Assunto e Mensagem válidos | Campos preenchidos corretamente. |
+| **1** | Preencher todos os campos obrigatórios. | Nome, Sobrenome, E-mail, Assunto e Mensagem válidos (mais de 50 caracteres e abaixo de 250) | Campos preenchidos corretamente. |
 | **2** | Clicar no botão **Send**. | Botão: `Send` | Mensagem enviada com sucesso e toast/alerta de confirmação exibido na tela (ex: *"Thanks for your message..."*). |
 
 ---
@@ -28,7 +28,7 @@
 
 | Passo | Descrição da Ação | Massa de Dados / Parâmetros | Resultado Esperado |
 | :---: | :--- | :--- | :--- |
-| **1** | Deixar os campos Assunto e Mensagem em branco. | Assunto: `[Selecione]`<br>Mensagem: `[Vazio]` | Campos obrigatórios não preenchidos. |
+| **1** | Deixar os campos vazios. |  | Campos obrigatórios não preenchidos. |
 | **2** | Clicar no botão **Send**. | Botão: `Send` | O formulário não é enviado. Envio bloqueado e mensagens de erro de campos obrigatórios exibidas na tela. |
 
 ---

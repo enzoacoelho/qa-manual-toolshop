@@ -56,3 +56,30 @@
 | Passo | Descrição da Ação | Massa de Dados / Parâmetros | Resultado Esperado |
 | :---: | :--- | :--- | :--- |
 | **1** | Anexar um arquivo `.txt` contendo texto. | Anexo: `arquivo_com_texto.txt` (> 0 KB, ex: 1 KB) | O sistema indica que o tamanho do arquivo excede o limite permitido (0 KB) e impede o envio. |
+
+
+### QA-CON-05 — Bloqueio de envio com mensagem abaixo do limite mínimo de caracteres
+- **ID:** QA-CON-05
+- **Prioridade:** Normal
+- **Objetivo:** Validar o bloqueio de envio quando o campo de mensagem contém menos caracteres do que o mínimo exigido pela regra de validação.
+- **Pré-condições:**
+  * Estar na página de Contato (`/contact`).
+
+| Passo | Descrição da Ação | Massa de Dados / Parâmetros | Resultado Esperado |
+| :---: | :--- | :--- | :--- |
+| **1** | Preencher o formulário informando uma mensagem com quantidade de caracteres abaixo do mínimo. | Mensagem: Texto curto (< limite mínimo) | Campo preenchido com tamanho insuficiente. |
+| **2** | Clicar no botão **Send**. | Botão: `Send` | O envio é bloqueado e a aplicação exibe a mensagem de validação correspondente ao tamanho mínimo. |
+
+---
+
+### QA-CON-06 — Bloqueio de envio com mensagem acima do limite máximo de caracteres
+- **ID:** QA-CON-06
+- **Prioridade:** Normal
+- **Objetivo:** Validar o bloqueio de envio quando o campo de mensagem excede o limite máximo de caracteres permitido pela regra de validação.
+- **Pré-condições:**
+  * Estar na página de Contato (`/contact`).
+
+| Passo | Descrição da Ação | Massa de Dados / Parâmetros | Resultado Esperado |
+| :---: | :--- | :--- | :--- |
+| **1** | Preencher o formulário informando uma mensagem com quantidade de caracteres acima do limite máximo. | Mensagem: Texto longo (> limite máximo) | Campo preenchido excedendo o tamanho permitido. |
+| **2** | Clicar no botão **Send**. | Botão: `Send` | O envio é bloqueado e a aplicação exibe a mensagem de validação correspondente ao tamanho máximo. |

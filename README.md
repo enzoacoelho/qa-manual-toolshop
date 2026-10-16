@@ -44,8 +44,8 @@ A execução integral da suíte planejada registrou os seguintes indicadores:
 
 ![Resultados de Test Execution](/docs/screenshots/zephyr-report-summary.png)
 
-* **Casos de Teste Executados:** 61
-* **Sucesso (Pass):** 54
+* **Casos de Teste Executados:** 63
+* **Sucesso (Pass):** 56
 * **Falhas (Fail):** 7
 * **Defeitos Mapeados:** 7 relatórios técnicos de bugs com evidências visuais e passos de reprodução.
 

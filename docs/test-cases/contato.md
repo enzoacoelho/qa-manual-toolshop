@@ -67,7 +67,7 @@
 
 | Passo | Descrição da Ação | Massa de Dados / Parâmetros | Resultado Esperado |
 | :---: | :--- | :--- | :--- |
-| **1** | Preencher o formulário informando uma mensagem com quantidade de caracteres abaixo do mínimo. | Mensagem: Texto curto (< limite mínimo) | Campo preenchido com tamanho insuficiente. |
+| **1** | Preencher o formulário informando uma mensagem com quantidade de caracteres abaixo do mínimo. | Mensagem: Texto curto (< limite mínimo: 50) | Campo preenchido com tamanho insuficiente. |
 | **2** | Clicar no botão **Send**. | Botão: `Send` | O envio é bloqueado e a aplicação exibe a mensagem de validação correspondente ao tamanho mínimo. |
 
 ---
@@ -81,5 +81,5 @@
 
 | Passo | Descrição da Ação | Massa de Dados / Parâmetros | Resultado Esperado |
 | :---: | :--- | :--- | :--- |
-| **1** | Preencher o formulário informando uma mensagem com quantidade de caracteres acima do limite máximo. | Mensagem: Texto longo (> limite máximo) | Campo preenchido excedendo o tamanho permitido. |
+| **1** | Preencher o formulário informando uma mensagem com quantidade de caracteres acima do limite máximo. | Mensagem: Texto longo (> limite máximo: 250) | Campo preenchido excedendo o tamanho permitido. |
 | **2** | Clicar no botão **Send**. | Botão: `Send` | O envio é bloqueado e a aplicação exibe a mensagem de validação correspondente ao tamanho máximo. |

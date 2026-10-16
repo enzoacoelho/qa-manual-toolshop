@@ -36,6 +36,8 @@
 | 27 | **QA-CON-02** | 1.0 | Contato | Bloqueio de envio com campos obrigatórios vazios |
 | 28 | **QA-CON-03** | 1.0 | Contato | Rejeição de anexo em formato inválido |
 | 29 | **QA-CON-04** | 1.0 | Contato | Rejeição de anexo válido mas acima do limite de tamanho |
+| 29 | **QA-CON-05** | 1.0 | Contato | Bloqueio de envio com mensagem abaixo do limite mínimo de caracteres |
+| 29 | **QA-CON-06** | 1.0 | Contato | Bloqueio de envio com mensagem acima do limite máximo de caracteres |
 | 30 | **QA-CAR-01** | 1.0 | Carrinho | Adição de produtos ao carrinho |
 | 31 | **QA-CAR-02** | 1.0 | Carrinho | Adição de produto com quantidade inicial customizada |
 | 32 | **QA-CAR-03** | 1.0 | Carrinho | Alteração e recálculo de quantidade de item no carrinho |

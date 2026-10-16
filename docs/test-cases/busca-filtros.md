@@ -77,3 +77,33 @@
 | **3** | Clicar na categoria **Other**. | Categoria: Other | Catálogo atualiza exibindo exclusivamente produtos da categoria Outros. |
 | **4** | Clicar na categoria **Special Tools**. | Categoria: Special Tools | Catálogo atualiza exibindo exclusivamente produtos de ferramentas especiais. |
 | **5** | Clicar na categoria **Rentals**. | Categoria: Rentals | Catálogo atualiza exibindo exclusivamente itens disponíveis para aluguel. |
+
+# QA-FIL-06 — Filtragem por Preço Máximo
+
+- **ID:** QA-FIL-06
+- **Prioridade:** Normal
+- **Objetivo:** Confirmar que ao reduzir o limite máximo do controle de faixa de preço, o catálogo exibe apenas produtos com valor igual ou inferior ao limite definido.
+- **Pré-condições:**
+  - Estar na página inicial (/).
+  - Controle de faixa de preço no estado padrão (mínimo $1, máximo $100).
+
+| Passo | Descrição da Ação | Massa de Dados / Parâmetros | Resultado Esperado |
+| :--- | :--- | :--- | :--- |
+| 1 | Reduzir o limite máximo do controle de faixa de preço. | Preço máximo: $50 | O controle exibe o valor máximo 50. |
+| 2 | Verificar os preços dos produtos listados. | Preço máximo: $50 | Catálogo atualiza exibindo exclusivamente produtos com preço menor ou igual a $50. |
+
+---
+
+# QA-FIL-07 — Filtragem por Preço Mínimo
+
+- **ID:** QA-FIL-07
+- **Prioridade:** Normal
+- **Objetivo:** Confirmar que ao aumentar o limite mínimo do controle de faixa de preço, o catálogo exibe apenas produtos com valor igual ou superior ao limite definido.
+- **Pré-condições:**
+  - Estar na página inicial (/).
+  - Controle de faixa de preço no estado padrão (mínimo $1, máximo $100).
+
+| Passo | Descrição da Ação | Massa de Dados / Parâmetros | Resultado Esperado |
+| :--- | :--- | :--- | :--- |
+| 1 | Aumentar o limite mínimo do controle de faixa de preço. | Preço mínimo: $51 | O controle exibe o valor mínimo 51. |
+| 2 | Verificar os preços dos produtos listados. | Preço mínimo: $51 | Catálogo atualiza exibindo exclusivamente produtos com preço maior ou igual a $51. |

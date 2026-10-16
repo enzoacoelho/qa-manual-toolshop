@@ -64,6 +64,8 @@
 | QA-FIL-03 | Busca e Filtro | Tratamento de Caracteres Especiais na Busca (Segurança) | ✅ Passou | — |
 | QA-FIL-04 | Busca e Filtro | Restauração do Catálogo via Limpeza de Filtros | ✅ Passou | — |
 | QA-FIL-05 | Busca e Filtro | Filtragem por Categorias | ✅ Passou | — |
+| QA-FIL-06 | Busca e Filtro | Filtragem por Preço Máximo | ✅ Passou | — |
+| QA-FIL-07 | Busca e Filtro | Filtragem por Preço Mínimo | ✅ Passou | — |
 | QA-USER-01 | User Profile | Alterar dados básicos do perfil com sucesso | ✅ Passou | — |
 | QA-USER-02 | User Profile | Alterar senha do usuário com sucesso | ✅ Passou | — |
 | QA-USER-03 | User Profile | Tentativa de salvar dados básicos do perfil em branco | ✅ Passou | — |

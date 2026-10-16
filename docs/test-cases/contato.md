@@ -19,7 +19,7 @@
 
 ---
 
-### QA-CON-02 — Bloqueio de envio com Assunto e Mensagem vazios
+### QA-CON-02 — Bloqueio de envio com campos obrigatórios vazios
 * **ID:** QA-CON-02
 * **Prioridade:** Normal
 * **Objetivo:** Validar o bloqueio de envio ao manter os campos obrigatórios do formulário limpos.
